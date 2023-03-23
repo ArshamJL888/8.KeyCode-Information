@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/icons8-keyboard-50.png" type="image/x-icon">
+    <title>JS event key code</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        designed by Arsham
+        <a href="#" id="learnMore">Learn More</a>
+    </header>
+    <a href="https://www.toptal.com/developers/keycode/table-of-all-keycodes" id="tableLink">
+       Table
+    </a>
+    <div id="primaryInfo">
+        Press Any Key to get the JavaScript Event Keycode Info
+    </div>
+    <div>
+        <div class="asciiCode">
+            83
+        </div>
+        <div class="info">
+            <div class="key">
+                <header class="keyHead">event.key</header>
+                <main class="keyMain">s</main>
+                <footer class="keyFooter">The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.</footer>
+            </div>
+            <div class="location">
+                <header class="locationHead">event.location</header>
+                <main class="locationMain">General keys <sub>(0)</sub></main>
+                <footer class="locationFooter">Some keys exist more than once on your keyboard. This provides the location of the key pressed. Try it with both shifts. <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/location"> More here</a></footer>
+            </div>
+            <div class="code">
+                <header class="codeHead">event.code</header>
+                <main class="codeMain">KeyS</main>
+                <footer class="codeFooter">The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</footer>
+            </div>
+            <div class="which">
+                <header class="whichHead">event.which</header>
+                <main class="whichMain">83</main>
+                <footer class="whichFooter">event.which and event.keyCode are <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent">(deprecated)</a> in modern browsers. Use .key or .code instead.</footer>
+            </div>
+            <div class="description">
+                <header class="descriptionHead">Description
+                </header>
+                <main class="descriptionMain">s</main>
+                <footer class="descriptionFooter">This is the description we have created. Think it can be improved? <a href="https://github.com/toptal/keycodes">PR us on GitHub</a> </footer>
+            </div>
+        </div>
+        <div class="additionalInfo">
+            <div class="metaKeys">
+                <header class="metaKeysHead">Meta Keys</header>
+                <main class="metaKeysMain">
+                    <div class="metaForm">⌘</div>
+                    <div class="metaForm">⇧</div>
+                    <div class="metaForm">⌥</div>
+                    <div class="metaForm">^</div>
+                </main>
+            </div>
+            <div class="eventDump">
+                <header class="eventDumpHead">Event Dump</header>
+                <main class="eventDumpMain">
+                    {<br>
+                    "key": "s",<br>
+                    "keyCode": 83,<br>
+                    "which": 83,<br>
+                    "code": "KeyS",<br>
+                    "location": 0,<br>
+                    "altKey": false,<br>
+                    "ctrlKey": false,<br>
+                    "metaKey": false,<br>
+                    "shiftKey": false,<br>
+                    "repeat": false<br>
+                   }</main>
+            </div>
+            <div class="similarValues">
+                <header class="similarValuesHead">Similar Values</header>
+                <main class="similarValuesMain">Minus(63)<br>
+                    F12(123) <br>
+                    Period(58)</main>
+            </div>
+            <div class="unicode">
+                <header class="unicodeHead">Unicode</header>
+                <main class="unicodeMain"></main>
+            </div>
+            <div class="history">
+                <header class="historyHead">History
+                </header>
+                <main class="historyMain">
+                    <div class="recent r4"></div>
+                    <div class="recent r3"></div>
+                    <div class="recent r2"></div>
+                    <div class="recent r1"></div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
